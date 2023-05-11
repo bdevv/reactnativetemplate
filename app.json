@@ -1,0 +1,26 @@
+{
+  "expo": {
+    "name": "ReactNativeTemplate",
+    "slug": "ReactNativeTemplate",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "e59b1887-967b-4133-8d10-6672d4f91e26"
+      }
+    },
+    "plugins": [
+      
+      [
+        "react-native-auth0",
+        {
+          "domain": "dev-1byx42mvrnttwps3.us.auth0.com",
+          "customScheme": "com.reactnativetemplate"
+        }
+      ]
+    ]
+  },
+  "name": "ReactNativeTemplate"
+}
